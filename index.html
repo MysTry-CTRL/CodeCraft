@@ -13,7 +13,7 @@
      <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
         <div class="container">
             <a class="navbar-brand fw-bold" href="index.html">
-                <span class="brand-mark">&lt;/&gt;</span>CodeCraft
+                <span class="brand-mark">&lt;/&gt;</span> CodeCraft
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
                 <span class="navbar-toggler-icon"></span>
@@ -36,11 +36,36 @@
             <div class="row align-items-center g-5 pf-4">
                 <div class="col-lg-6">
                     <span class="eyebrow">Ages 11-14, No experience needed</span>
-                    <h1 class="display-4 fw-bold mt-3 mb-3">Your First line of code starts here.</h1>
+                    <h1 class="display-4 fw-bold mt-3 mb-3">Your first line of code starts here.</h1>
                     <p class="lead text-secondary mb-4">CodeCraft teaches real programming through games, animations, and websites you actually want to build — guided by an instructor, at your own pace</p>
                     <div class="d-flex gap-3 flex-wrap">
                         <a href="signup.html" class="btn btn-brand btn-lg px-4">Start Learning Free</a>
                         <a href="#how" class="btn btn-outline-dark btn-lg px-4">See How It Works</a>
+                    </div>
+                    <div class="d-flex gap-4 mt-4 text-secondary small"> <!-- rem = 1(n+r)-->
+                        <span>&#10003; No credit card</span>
+                        <span>&#10003; Beginner Friendly</span>
+                        <span>&#10003; Real Projects</span>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="code-card">
+                        <div class="code-card-header">
+                            <span class="dot dot-red"></span><span class="dot dot-amber"></span><span class="dot dot-green"></span>
+                            <span class="code-card-title">helicopter_game.py</span>
+                        </div>
+                        <pre class="code-body"><code>
+<span class="c-kw">def</span> <span class="c-fn">fly</span> (player):
+
+    <span class="c-kw">if</span> key_pressed(<span class="c-str">"space"</span>):
+        player.y-=<span class="c-num">5</span>
+    <span class="c-kw">else</span>:
+        player.y+=<span class="c-num">3</span>
+    
+    <span class="c-kw">return</span>
+        player.y
+
+<span class="c-comment">#you will build this in week 3</span></code></pre>
                     </div>
                 </div>
             </div>

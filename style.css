@@ -73,7 +73,6 @@ h1, h2, h3, h4, h5, h6, .navbar-brand{
 .code-card{
     background-color: var(--indigo);
     border-radius: 14px;
-    color: #ffffff;
     overflow: hidden;
     box-shadow: 0 10px 20px rgba(43, 42, 76, 0.2);
 }
@@ -110,4 +109,33 @@ h1, h2, h3, h4, h5, h6, .navbar-brand{
     font-size: 13px;
     margin-left: 8px;
     font-family: 'Inter', sans-serif;
+}
+
+.code-body{
+    margin: 0;
+    padding: 20px;
+    font-family: 'JetBrains Mono';
+    font-size: 14.5px;
+    line-height: 1.7;
+    color: #e8e7f4;
+    overflow-x: auto;
+}
+
+.c-kw{
+    color: #ff8a7a;
+}
+
+.c-fn{
+    color: #7fd8f2;
+}
+
+.c-str{
+    color: #ffc24b;
+}
+
+.c-num{
+    color: #c9a8ff;
+}
+.c-comment{
+    color: #8482a8;
 }

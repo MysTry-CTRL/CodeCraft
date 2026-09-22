@@ -139,3 +139,130 @@ h1, h2, h3, h4, h5, h6, .navbar-brand{
 .c-comment{
     color: #8482a8;
 }
+
+.trust-strip{
+    background: var(--indigo);
+    color: #ffffff;
+}
+
+.trust-strip span{
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.course-card{
+    background: var(--cream);
+    border-radius: 14px;
+    padding: 32px 28px;
+}
+
+.course-icon{
+    width: 52px;
+    height: 52px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.icon-coral{
+    background: rgba(255, 107, 91, 0.15);
+}
+.icon-teal{
+    background: rgba(58, 175, 169, 0.15);
+}
+.icon-indigo{
+    background: rgba(43, 42, 76, 0.15);
+}
+
+.link-brand{
+    color: var(--coral);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.link-brand:hover{
+    color: var(--coral-dark);
+}
+
+#how{
+    background-color: #fafafa;
+}
+
+.step-num{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: var(--indigo);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    margin: 0 auto;
+}
+
+.review-card{
+    background: #ffffff;
+    border: 1px solid #efefef;
+    border-radius: 14px;
+    padding: 28px;
+}
+
+.cta-section{
+    background: var(--indigo);
+    color: #ffffff;
+}
+
+.cta-section h2{
+    color: #ffffff;
+}
+
+.cta-section .text-secondary{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer{
+    border-top: 1px solid #dad8d8;
+}
+
+.auth-wrapper{
+    min-height: calc(100vh-140px);
+    display: flex;
+    align-items: center;
+    background: var(--cream);
+}
+
+.auth-card{
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 40px;
+    box-shadow: 0 5px 10px rgba(172, 172, 163);
+    margin: 70px auto;
+}
+
+.form-label{
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.form-control{
+    border-radius: 8px;
+    padding: 11px 15px;
+}
+
+.form-control:focus{
+    border-color: var(--coral);
+    box-shadow: 0 0 0 3px 
+}
+
+.auth-switch a{
+    color: var(--coral);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.form-check-label{
+    font-size: small;
+    color: gray;
+}

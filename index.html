@@ -22,7 +22,7 @@
             <div class="collapse navbar-collapse justify-content-end" id="navMenu">
                 <ul class="navbar-nav align-items-lg-center gap-lg-2"> <!-- 2 = 0.5rem which is around 8px -->
                     <li class="nav-item"><a class="nav-link" href="#courses">Courses</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#how-it-works">How it works</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#how">How it works</a></li>
                     <li class="nav-item"><a class="nav-link" href="#reviews">Reviews</a></li>
                     <li class="nav-item"><a class="nav-link" href="login.html">Log in</a></li>
                     <li class="nav-item"><a class="btn btn-brand btn-sm ms-lg-2" href="signup.html">Sign up</a></li>
@@ -73,7 +73,7 @@
      </header>
 
     <!-- Trust Strip -->
-     <div class="trus-strip py-3">
+     <div class="trust-strip py-3">
         <div class="container d-flex flex-wrap justify-contant-center gap-4 gap-md-5 text-secondary small fw-medium">
             <span>1200+ Students taught</span>
             <span>•</span>
@@ -91,21 +91,23 @@
                 <h2 class="fw-bold mt-2">Pick a Path, Start Building Today</h2>
             </div>
             <div class="row g-4">
-                <div class="col-md-4">
+                <div class="col-4">
                     <div class="course-card h-100">
                         <div class="course-icon icon-coral"><i class="fa-solid fa-gamepad"></i></div>
                         <h5 class="fw-semibold mt-3">Scratch Games</h5>
                         <p class="text-secondary">Build Snake, Falling Stars, and many more games while learning loops, variables, and events.</p>
                         <a href="signup.html" class="link-brand">Explore Courses &rarr;</a>
                     </div>
-                                    
+                </div>
+                <div class="col-4">
                     <div class="course-card h-100">
                         <div class="course-icon icon-teal"><i class="fa-solid fa-earth-americas"></i></div>
                         <h5 class="fw-semibold mt-3">Web Design</h5>
                         <p class="text-secondary">Design real webpages with HTML and CSS — layouts, colors, and responsive design from scratch.</p>
                         <a href="signup.html" class="link-brand">Explore Courses &rarr;</a>
-                    </div>          
-                    
+                    </div>
+                </div>
+                <div class="col-4">
                     <div class="course-card h-100">
                         <div class="course-icon icon-indigo"><i class="fa-solid fa-bolt"></i></div>
                         <h5 class="fw-semibold mt-3">JavaScript Basics</h5>
@@ -116,5 +118,85 @@
             </div>
         </div>
      </section>
+
+     <!-- How It Works -->
+     <section id="how" class="py-5">
+        <div class="container py-4">
+            <div class="text-center mb-5">
+                <span class="eyebrow">How It Works</span>
+                <h2 class="fw-bold mt-2">Three steps to your first project</h2>
+            </div>
+            <div class="row g-4 flex-center">
+                <div class="col-md-4">
+                    <div class="step-num">1</div>
+                    <h5 class="fw-semibold mt-3">Create your account</h5>
+                    <p class="text-secondary">Sign up free in under a minute - no credit car required.</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="step-num">2</div>
+                    <h5 class="fw-semibold mt-3">Pick a project</h5>
+                    <p class="text-secondary">Choose a guided course that matches what you want to build.</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="step-num">3</div>
+                    <h5 class="fw-semibold mt-3">Build and ship it</h5>
+                    <p class="text-secondary">Follow along step by step until your project actually works.</p>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- Reviews -->
+     <section id="reviews" class="py-5">
+        <div class="container py-4">
+            <div class="text-center mb-5">
+                <span class="eyebrow">Reviews</span>
+                <h2 class="fw-bold mt-2">What students say:</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="review-card h-100">
+                        <p class="mb-3">&ldquo;I made my own Snake game and showed my whole class. It felt like magic. &rdquo;</p>
+                        <p class="fw-semibold mb-0 small">Rafi, age 12</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="review-card h-100">
+                        <p class="mb-3">&ldquo;The lessons explain bugs instead of just hiding them. I actually understand my code now.&rdquo;</p>
+                        <p class="fw-semibold mb-0 small">Nusrat, age 12</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="review-card h-100">
+                        <p class="mb-3">&ldquo;Best part of my week. We built a whole website about space.&rdquo;</p>
+                        <p class="fw-semibold mb-0 small">Adib, age 11</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- CTA -->
+      <section class="cta-section py-5">
+        <div class="container py-4 text-center">
+            <h2 class="fw-bold mb-3">Ready to write your first line of code?</h2>
+            <p class="text-secondary mb-4">Join free and start your first project today.</p>
+            <a href="signup.html" class="btn btn-brand btn-lg px-5">Sign Up Now</a>
+        </div>
+      </section>
+
+            <!-- Footer -->
+        <footer class="footer py-4">
+                <div class="container d-flex flex-wrap justify-content-between align-items-center gap-3">
+                        <span>&copy; 2026 CodeCraft Academy</span>
+                        <div class="d-flex gap-3">
+                                <a href="t&c.html" class="text-secondary">Terms</a>
+                                <a href="privacy.html" class="text-secondary">Privacy</a>
+                                <a href="index.html" class="text-secondary">Home</a>
+                                <a href="login.html" class="text-secondary">Log in</a>
+                                <a href="signup.html" class="text-secondary">Sign up</a>
+                        </div>
+                </div>
+        </footer>
 </body>
 </html>
